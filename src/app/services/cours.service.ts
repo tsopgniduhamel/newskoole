@@ -8,7 +8,7 @@ import { Matiere } from '../models/matiere';
   providedIn: 'root',
 })
 export class CoursService {
-  apiUrl: string = 'http://franklinduval.pythonanywhere.com/';
+  apiUrl: string = 'https://franklinduval.pythonanywhere.com/';
   coursDuneClasse: Array<string> = [];
   chapitresDuneMatiereDuneClasse: Array<Cours> = [];
 
